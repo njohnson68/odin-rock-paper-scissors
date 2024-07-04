@@ -32,7 +32,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (computerScore == 5) {
-        winner.textContent = "Game over! You lose!";
+        winner.textContent =
+          "Game over! You lose! Refresh the browser to play again!";
       }
     } else if (humanChoice == "rock" && computerChoice == "scissors") {
       result.textContent = "Round Result: You win! Rock beats Scissors";
@@ -40,7 +41,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (humanScore == 5) {
-        winner.textContent = "Game over! You win!";
+        winner.textContent =
+          "Game over! You win! Refresh the browser to play again!";
       }
     } else if (humanChoice == "paper" && computerChoice == "rock") {
       result.textContent = "Round Result: You win! Paper beats Rock";
@@ -48,7 +50,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (humanScore == 5) {
-        winner.textContent = "Game over! You win!";
+        winner.textContent =
+          "Game over! You win! Refresh the browser to play again!";
       }
     } else if (humanChoice == "paper" && computerChoice == "scissors") {
       result.textContent = "Round Result: You lose! Scissors beats Paper";
@@ -56,7 +59,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (computerScore == 5) {
-        winner.textContent = "Game over! You lose!";
+        winner.textContent =
+          "Game over! You lose! Refresh the browser to play again!";
       }
     } else if (humanChoice == "scissors" && computerChoice == "rock") {
       result.textContent = "Round Result: You lose! Rock beats Scissors";
@@ -64,7 +68,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (computerScore == 5) {
-        winner.textContent = "Game over! You lose!";
+        winner.textContent =
+          "Game over! You lose! Refresh the browser to play again!";
       }
     } else if (humanChoice == "scissors" && computerChoice == "paper") {
       result.textContent = "Round Result: You win! Scissors beats Paper";
@@ -72,7 +77,8 @@ function playGame() {
       your_score.textContent = "Your Score: " + humanScore;
       comp_score.textContent = "Computer Score: " + computerScore;
       if (humanScore == 5) {
-        winner.textContent = "Game over! You win!";
+        winner.textContent =
+          "Game over! You win! Refresh the browser to play again!";
       }
     } else if (humanChoice == computerChoice) {
       result.textContent = "Round Result: It's a tie!";
